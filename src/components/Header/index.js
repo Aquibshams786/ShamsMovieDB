@@ -11,7 +11,6 @@ const Header=()=>(
     <Wrapper>
         <Content>
             <LogoImg src={RMDBLogo}alt=""/>
-        <p>Aq</p>
             <TMDBLogoImg src={TMDBLogo}/>
         </Content>
     </Wrapper>
