@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 //styles
 import { GlobalStyle } from './GlobalStyle';
@@ -7,14 +8,15 @@ import Header from './components/Header';
 import Home from './components/Home'
 
 
-function App() {
-  return (
-    <div className="App">
+const App=()=>(
+    <Router>
       <Header/>
-      <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+      {/* <Home/> */}
       <GlobalStyle/>
-    </div>
+    </Router>
   );
-}
 
 export default App;

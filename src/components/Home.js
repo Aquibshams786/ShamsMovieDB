@@ -40,6 +40,7 @@ const Home=()=>{
                 />
                 :null
             }
+            Aquib
             <SearchBar setSearchTerm={setSearchTerm}/>
             <Grid header={searchTerm?'Search Results':'Popular Movies'}>
                 {state.results.map(movies=>(

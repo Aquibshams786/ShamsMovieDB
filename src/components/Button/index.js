@@ -4,9 +4,9 @@ import React from "react";
 
 import { Wrapper } from "./Button.styles";
 
-const Mutton=({text,callback})=>(
+const Button1=({text,callback})=>(
     <Wrapper type="button" onClick={callback}>
         {text}
     </Wrapper>
 );
-export default Mutton;
+export default Button1;
